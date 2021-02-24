@@ -48,7 +48,7 @@ button:hover {
 }
 
 #gameButtonArea > button {
-  width: 200px;
+  width: 300px;
   height: 200px;
   margin: 2px auto;
 }
@@ -81,8 +81,8 @@ button:hover {
   background: green;
 }
 
-#button2:active, #button2.lit {
-  background-image: ;
+#button2:active {
+  background-image: url("https://cdn.glitch.com/9aedd2c0-02c2-4a34-9eaf-f0a525a12e3b%2Fpanda.jpg?v=1614194510455");
 }
 
 #button3:active, #button3.lit  {
@@ -90,7 +90,8 @@ button:hover {
 }
 
 #button4:active, #button4.lit  {
-  background: yellow;
+  background-image: url(https://cdn.glitch.com/9aedd2c0-02c2-4a34-9eaf-f0a525a12e3b%2Fhusky.jpg?v=1614194513676);
+  background-repeat: inherit;
 }
   
 #button5:active, #button5.lit  {
