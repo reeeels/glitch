@@ -8,14 +8,18 @@ body {
 }
 
 h1 {
-  font-style: italic;
   text-align: center;
   font-size: 4em;
   color: yellow;
   font-weight: bold;
   font-family: Montserrat, sans-serif;
+  border: 2px solid black;
+  padding: 1.5px;
+  background-color: #2596be;
+  transition: .5s;
 }
 
 h1:hover {
-  
+  background-color: #e28743;
+  translateY: -100px;
 }
