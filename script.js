@@ -2,7 +2,7 @@
 const cluePauseTime = 500;
 const nextClueWaitTime = 1500;
 //Global Variables
-var pattern = [2, 2, 4, 3, 2, 1, 2, 4];
+var pattern = [2, 2, 5, 3, 4, 1, 2, 4, 2];
 var progress = 0;
 var gamePlaying = false;
 var tonePlaying = false;
@@ -32,7 +32,7 @@ function stopGame(){
 
 // Sound Synthesis Functions
 const freqMap = {
-  1: 200,
+  1: 250,
   2: 300,
   3: 350,
   4: 400,
