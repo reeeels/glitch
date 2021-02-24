@@ -9,6 +9,13 @@ body {
 
 h1 {
   font-style: italic;
-  color: #373fff;
-  font-family: 
+  text-align: center;
+  font-size: 4em;
+  color: yellow;
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
+}
+
+h1:hover {
+  
 }
