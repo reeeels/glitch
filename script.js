@@ -106,7 +106,17 @@ function guess(btn){
   if(!gamePlaying){
     return;
   }
-  if 
+  if (btn != pattern[guesscounter]){ //incorrect guess
+    loseGame();
+  }else{ //correct guess
+    if (progress != guesscounter){ //turn not over
+      progress++;
+      playClueSequence;
+    }else{ //turn over
+      if (p)
+    }
+  }
+  
 }
 
 
