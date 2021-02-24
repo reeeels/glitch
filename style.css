@@ -12,9 +12,9 @@ h1 {
   font-size: 4em;
   color: yellow;
   font-weight: bold;
-  font-family: Montserrat, sans-serif;
+  font-family: Stick, sans-serif;
   border: 2px solid black;
-  padding: 1.5px;
+  padding: 1px 2;
   background-color: #2596be;
   transition: .3s;
 }
@@ -63,14 +63,14 @@ button:hover {
   background: green;
 }
 
-#button1:active {
-  background: green;
+#button2:active {
+  background: blue;
 }
 
-#button1:active {
-  background: green;
+#button3:active {
+  background: red
 }
 
-#button1:active {
-  background: green;
+#button4:active {
+  background: yellow;
 }
