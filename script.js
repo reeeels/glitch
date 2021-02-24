@@ -113,7 +113,7 @@ function guess(btn){
       progress++;
       playClueSequence;
     }else{ //turn over
-      if (p)
+      
     }
   }
   
