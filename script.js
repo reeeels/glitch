@@ -93,27 +93,29 @@ function playClueSequence(){
 
 function loseGame(){
   stopGame();
-  alert("You lost :(")
+  alert("You lost :(");
 }
 
 function winGame(){
   stopGame();
-  alert("Yay!!! You won :)")
+  alert("Yay!!! You won :)");
 }
 
 function guess(btn){
-  console.log("user guessed: " + btn);
+  console.log("User guessed: " + btn);
   if(!gamePlaying){
     return;
   }
-  if (btn == pattern[guesscounter]){ //correct guess
-    winGame();
+  if (btn == pattern[guessCounter]){ //correct guess
+    if(guessCounter == pattern.length){ //turn over
+      
+       
+       }else{ //increment guess counter
+      guessCounter++
+    }
   }else{ //incorrect guess
-    loseGame()
+    loseGame();
   }
- 
-  }
-  
 }
 
 
