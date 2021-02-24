@@ -71,7 +71,7 @@ function lightButton(btn){
   document.getElementById("button"+btn).classList.add("lit")
 }
 
-function clearButton(btn){}
+function clearButton(btn){
   document.getElementById("button"+btn).classList.remove("lit")
 }
 

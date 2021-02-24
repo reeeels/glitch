@@ -8,6 +8,10 @@ body {
   color: black;
 }
 
+p {
+  text-align: center;
+}
+
 h1 {
   text-align: center;
   font-size: 4em;
@@ -21,23 +25,32 @@ h1 {
 }
 
 h1:hover {
-  background-color: yellow;
-  color: blue;
+  background-color: skyblue;
+  color: black;
 }
 
 button {
   border-radius: 20px;
   padding: 10px;
+  color: white;
 }
 
 button:hover {
   cursor: pointer;
 }
 
+#startBtn {
+  background-color: green;
+}
+
+#endBtn {
+  background-color: red;
+}
+
 #gameButtonArea > button {
   width: 200px;
   height: 200px;
-  margin: 2px;
+  margin: 2px auto;
 }
 
 .hidden {
