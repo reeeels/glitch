@@ -77,11 +77,15 @@ button:hover {
   background: grey;
 }
 
-#button1:active, #button1.lit {
+#button1:active {
   background-image: url(https://cdn.glitch.com/9aedd2c0-02c2-4a34-9eaf-f0a525a12e3b%2Fcat.jpg?v=1614194516699);
   background-repeat: none;
   background-origin: border-box;
   background-position: center;
+}
+
+#button1.lit {
+  background: green;
 }
 
 #button2:active {
@@ -91,20 +95,39 @@ button:hover {
   background-position: center;
 }
 
-#button3:active, #button3.lit  {
+#button2.lit { 
+  background: blue;
+}
+
+#button3:active {
   background-image: url(https://cdn.glitch.com/9aedd2c0-02c2-4a34-9eaf-f0a525a12e3b%2Fhusky2.jpg?v=1614195433920);
   background-repeat: none;
   background-origin: border-box;
   background-position: center;
 }
 
-#button4:active, #button4.lit  {
+#button3.lit  {
+  background: red;
+}
+
+#button4:active {
   background-image: url(https://cdn.glitch.com/9aedd2c0-02c2-4a34-9eaf-f0a525a12e3b%2Fkoala2.jpg?v=1614196029579);
   background-repeat: none;
   background-origin: border-box;
   background-position: center;
 }
+
+#button4.lit  {
+  background: yellow;
+}
   
-#button5:active, #button5.lit  {
+#button5:active {
+  background-image: url(https://cdn.glitch.com/9aedd2c0-02c2-4a34-9eaf-f0a525a12e3b%2Fdoge.jpg?v=1614194524551);
+  background-repeat: none;
+  background-origin: border-box;
+  background-position: center;
+}
+
+#button5.lit  {
   background: black;
 }
