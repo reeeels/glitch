@@ -69,6 +69,9 @@ o.start(0)
 
 function lightButton(btn){
   document.getElementById("button"+btn).classList.add("lit")
+}
+
+function clearButton(btn){}
   document.getElementById("button"+btn).classList.remove("lit")
 }
 
@@ -107,11 +110,15 @@ function guess(btn){
     return;
   }
   if (btn == pattern[guessCounter]){ //correct guess
-    if(guessCounter == pattern.length){ //turn over
-      
-       
-       }else{ //increment guess counter
-      guessCounter++
+    if (guessCounter == progress){ //turn over
+      if (progress == pattern.length - 1){
+        winGame();
+      }else{ //increment progress
+        progress ++;
+        playClueSequence();
+      } 
+    }else{ //increment guess counter
+      guessCounter++;
     }
   }else{ //incorrect guess
     loseGame();
