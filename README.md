@@ -5,7 +5,7 @@ Name: Temiloluwa Ige
    // MDN (Mozilla Developer Network) url:"https://developer.mozilla.org/en-US/docs/Web/CSS/", Web Dev BootCamp 2021 by Colt Steele on Udemy (I'm taking this course), Google fonts.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) [YOUR ANSWER HERE]
-   // The challenging part for me was trying to understand the javascript functions, especially the "playClueSequence()". I am learning a lot of HTML and CSS at the moment, but I am yet to take javascript part, and so it feels new to me.
+   // In creating this submission, I tried adding more effects and elements of my own to the css stylesheet, and I did get some syntax wrong. For the elements I couldbA challenging part for me was trying to understand the javascript functions, especially the "playClueSequence()". I am learning a lot of HTML and CSS at the moment, but I am yet to take javascript part, and so it feels new to me.
    
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
    //After completing this submission, it feels like JavaScript is the big one. I do understand the concept of web dev and the use of html ,css, and Javascript, but I want to ask if there are other applications or use of JavaScript asides in web dev. I also want to get your thoughts on the difficulty and complexity of Javascript. Thanks 
